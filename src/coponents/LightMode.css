@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,400;0,500;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.body{
+    width: 100%;
+    height: 105vh;
+    background-color:#F6F8FF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+ 
+}
+ .main-div{
+    width: 730px;
+    height: 419px;
+    padding:10px 60px;
+   
+   
+ }
+ .row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+     
+    
+ }
+ .wraper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ h2{
+    color: rgba(34, 39, 49, 1);
+    font-family: 'Space Mono', monospace;
+ }
+ p{
+    color: rgba(105, 124, 154, 1);
+    font-weight: 700;
+   
+   
+ }
+ .row img{
+    width:30px ;
+    height: 30px;
+    cursor: pointer;
+ }
+ 
+ .input-wraper{
+ display: flex;
+ width: 100%;
+ align-items: center;
+ position: relative;
+
+
+ 
+ }
+ .input1{
+    width:730px;
+    height: 69px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0 50px;
+ }
+ ::-webkit-input-placeholder{
+    color: rgba(75, 106, 155, 1);
+    font-family: 'Space Mono', monospace;
+ }
+  
+ .search{
+    position: absolute;
+    left: 15px;
+ }
+ .btn1{
+    background-color: rgba(0, 121, 255, 1);
+    color: white;
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    right: 35px;
+    font-family: 'Space Mono', monospace;
+    border: none;
+  
+ }
+ .input-wraper  .dark{
+   color: white;
+   background: #1E2A47;
+}
+
+.input-wraper .dark::placeholder{
+   color:white
+}
